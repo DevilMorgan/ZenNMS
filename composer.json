@@ -11,6 +11,7 @@
     "require": {
         "php": "^7.4|^8.0",
         "ext-json": "*",
+
         "arcanedev/log-viewer": "8.x",
         "blade-ui-kit/blade-ui-kit": "^0.2.0",
         "darkghosthunter/laraguard": "^3.0",
