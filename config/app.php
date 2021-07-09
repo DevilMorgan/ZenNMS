@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'Laravel Boilerplate'),
 
     /*
     |--------------------------------------------------------------------------
@@ -165,16 +165,23 @@ return [
         /*
          * Package Service Providers...
          */
+        App\Providers\MetronicServiceProvider::class,
+
 
         /*
          * Application Service Providers...
          */
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
+        App\Providers\BladeServiceProvider::class,
         // App\Providers\BroadcastServiceProvider::class,
+        App\Providers\ComposerServiceProvider::class,
         App\Providers\EventServiceProvider::class,
+        App\Providers\HelperServiceProvider::class,
+        App\Providers\LocaleServiceProvider::class,
+        App\Providers\ObserverServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-        App\Providers\TelescopeServiceProvider::class,
+		      App\Providers\TelescopeServiceProvider::class,
 
     ],
 
@@ -228,6 +235,9 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+		        // Metronic Aliases
+        'Metronic' => App\Classes\Theme\Metronic::class,
+        'Menu' => App\Classes\Theme\Menu::class,
 
     ],
 

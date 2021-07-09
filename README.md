@@ -1,89 +1,46 @@
+## Laravel Boilerplate (Current: Laravel 8.*) ([Demo](https://demo.laravel-boilerplate.com))
 
-<p align="center">
-    <img alt="ZenNMS" src="docs/img/logo.png">
-</p>
+[![Latest Stable Version](https://poser.pugx.org/rappasoft/laravel-boilerplate/v/stable)](https://packagist.org/packages/rappasoft/laravel-boilerplate)
+[![Latest Unstable Version](https://poser.pugx.org/rappasoft/laravel-boilerplate/v/unstable)](https://packagist.org/packages/rappasoft/laravel-boilerplate) 
+<br/>
+[![StyleCI](https://styleci.io/repos/30171828/shield?style=plastic)](https://github.styleci.io/repos/30171828)
+![Tests](https://github.com/rappasoft/laravel-boilerplate/workflows/Tests/badge.svg?branch=master)
+<br/>
+![GitHub contributors](https://img.shields.io/github/contributors/rappasoft/laravel-boilerplate.svg)
+![GitHub stars](https://img.shields.io/github/stars/rappasoft/laravel-boilerplate.svg?style=social)
 
-<p align="center">
-    <img alt="Project Status" src="https://img.shields.io/badge/ZenNMS-WIP-green.svg">
-    <img alt="Coded in PHP^8" src="docs/img/php8.svg">
-    <img alt="License MIT" src="docs/img/license_mit.svg">
-</p>
+### Demo Credentials
 
-## Table of contents
-- [About ZenNMS](#about-zennms)
-- [Project Status](#project-status)
-- [Technologies](#technologies)
-- [Features](#features)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [Code of Conduct](#code-of-conduct)
-- [Security Vulnerabilities](#security-vulnerabilities)
-- [License](#license)
-   
-## About ZenNMS
-   
-## Project Status
+**Admin:** admin@admin.com  
+**Password:** secret
 
-The project status is: **Work In Progress**.
-   
-## Technologies
-   
-The ZenNMS project is created with:
+**User:** user@user.com  
+**Password:** secret
 
-- [PHP8](https://www.php.net/)
-- [Laravel 8](https://laravel.com/)
-- [Tailwindcss](https://tailwindcss.com/)
-- [Apache ECharts 5](https://echarts.apache.org/en/index.html)
+### Official Documentation
 
-## Features
+[Click here for the official documentation](http://laravel-boilerplate.com)
 
-- Device management and monitoring
-- Network discovery
-- Rack Management
-- Site
+### Slack Channel
 
-## Screenshots
+Please join us in our Slack channel to get faster responses to your questions. Get your invite here: https://laravel-5-boilerplate.herokuapp.com
 
-### Devices List
+### Introduction
 
-<img alt="devices list screenshot" src="docs/img/devices_list.png" width="1500">
+Laravel Boilerplate provides you with a massive head start on any size web application. Out of the box it has features like a backend built on CoreUI with Spatie/Permission authorization. It has a frontend scaffold built on Bootstrap 4. Other features such as Two Factor Authentication, User/Role management, searchable/sortable tables built on my [Laravel Livewire tables plugin](https://github.com/rappasoft/laravel-livewire-tables), user impersonation, timezone support, multi-lingual support with 20+ built in languages, demo mode, and much more.
 
-### Device Details
+### Issues
 
-<img alt="devices list screenshot" src="docs/img/device_details.png" width="1500">
+If you come across any issues please [report them here](https://github.com/rappasoft/laravel-boilerplate/issues).
 
-### Device Entities
+### Contributing
 
-<img alt="devices entities list screenshot" src="docs/img/device-entities.png" width="1500">
+Thank you for considering contributing to the Laravel Boilerplate project! Please feel free to make any pull requests, or e-mail me a feature request you would like to see in the future to Anthony Rappa at rappa819@gmail.com.
 
-### Device Interfaces
+### Security Vulnerabilities
 
-<img alt="device interface list screenshot" src="docs/img/device-interfaces.png" width="1500">
+If you discover a security vulnerability within this boilerplate, please send an e-mail to Anthony Rappa at rappa819@gmail.com, or create a pull request if possible. All security vulnerabilities will be promptly addressed.
 
-### Device Neighbours
+### License
 
-<img alt="devices list screenshot" src="docs/img/device-neighbours.png" width="1500">
-
-### Device Wireless Access Points
-
-<img alt="devices list screenshot" src="docs/img/device-wireless-access-points.png" width="1500">
-
-### Wireless Access Points Details
-
-<img alt="devices list screenshot" src="docs/img/wireless-access-point-details.png" width="1500">
-
-## Contributing
-
-Thank you for considering contributing to the ZenNMS! The contribution guide can be found in the [ZenNMS documentation](#).
-
-## Code of Conduct
-
-In order to ensure that the ZenNMS community is welcoming to all, please review and abide by the [Code of Conduct](.github/CODE_OF_CONDUCT.md).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within ZenNMS, please send an e-mail to Angel Campos via [angel.campos.m@outlook.com](mailto:angel.campos.m@outlook.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The ZenNMS is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+MIT: [http://anthony.mit-license.org](http://anthony.mit-license.org)

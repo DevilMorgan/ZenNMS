@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use Database\Seeders\Traits\TruncateTable;
 use Database\Seeders\sample\DeviceSettingsSeeder;
 use Database\Seeders\sample\DeviceSeeder;
 use Database\Seeders\sample\DeviceResponseTimeSeeder;
@@ -12,19 +13,30 @@ use Database\Seeders\sample\DeviceSnmpDetailsSeeder;
 use Database\Seeders\sample\DeviceSnmpSettingsSeeder;
 use Database\Seeders\sample\WirelessAccessPointsSeeder;
 use Database\Seeders\sample\WirelessClientsCountSeeder;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Seeder;
 
+/**
+ * Class DatabaseSeeder.
+ */
 class DatabaseSeeder extends Seeder
 {
+    use TruncateTable;
+
     /**
      * Seed the application's database.
-     *
-     * @return void
      */
     public function run()
     {
-        $loadSampleData = $this->command->confirm('Load sample data?');
+        Model::unguard();
 
+        $this->truncateMultiple([
+            'activity_log',
+            'failed_jobs',
+        ]);
+
+        $this->call(AuthSeeder::class);
+        $this->call(AnnouncementSeeder::class);
         $this->call([
             ChecksSeeder::class,
             DeviceTypesSeeder::class,
@@ -32,13 +44,9 @@ class DatabaseSeeder extends Seeder
             IanaPhysicalClassDefinitionsSeeder::class,
             IanaTunnelTypeDefinitionsSeeder::class,
             InterfaceStatusesSeeder::class,
-            PrivateEnterpriseNumbersSeeder::class,
-            RackTypeSeeder::class,
-            UserSeeder::class,
-        ]);
+        //    PrivateEnterpriseNumbersSeeder::class,
+        //   RackTypeSeeder::class,
 
-        if ($loadSampleData) {
-            $this->call([
                 DeviceSeeder::class,
                 DeviceEntityPhysicalSeeder::class,
                 DeviceInterfacesSeeder::class,
@@ -50,6 +58,7 @@ class DatabaseSeeder extends Seeder
                 WirelessAccessPointsSeeder::class,
                 WirelessClientsCountSeeder::class,
             ]);
-        }
+
+        Model::reguard();
     }
 }

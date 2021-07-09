@@ -53,10 +53,7 @@ class CreateDevicesTable extends Migration
 
             $table->timestamps();
 
-            $table->foreign('vendor_id')
-                ->references('id')
-                ->on('private_enterprise_numbers')
-                ->cascadeOnDelete();
+    
         });
     }
 

@@ -32,9 +32,7 @@ class CreateDeviceInterfacesTable extends Migration
             $table->foreign('device_id')
                 ->references('id')
                 ->on('devices');
-            $table->foreign('type_id')
-                ->references('id')
-                ->on('interface_type_definitions');
+
 
             $table->timestamps();
         });

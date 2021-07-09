@@ -1,36 +1,51 @@
 {
-    "name": "zennms/zennms",
+    "name": "rappasoft/laravel-boilerplate",
     "type": "project",
-    "description": "ZenNMS the Network Monitoring System.",
+    "description": "The Laravel Boilerplate Project.",
     "keywords": [
         "framework",
-        "laravel"
+        "laravel",
+        "boilerplate"
     ],
     "license": "MIT",
     "require": {
-        "php": "^8.0",
+        "php": "^7.4|^8.0",
         "ext-json": "*",
-        "ext-snmp": "*",
-        "acamposm/ping": "^2.1",
-        "acamposm/snmp-poller": "^1.1",
+        "arcanedev/log-viewer": "8.x",
         "blade-ui-kit/blade-ui-kit": "^0.2.0",
+        "darkghosthunter/laraguard": "^3.0",
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
-        "http-interop/http-factory-guzzle": "^1.0",
+        "jamesmills/laravel-timezone": "^1.9",
+        "lab404/laravel-impersonate": "^1.6",
+        "langleyfoxall/laravel-nist-password-rules": "^4.1",
         "laravel/framework": "^8.40",
-        "laravel/scout": "^9.1",
+        "laravel/scout": "^9.2",
+        "laravel/socialite": "^5.0",
         "laravel/tinker": "^2.5",
-        "meilisearch/meilisearch-php": "^0.18.2"
+        "laravel/ui": "^3.0",
+        "livewire/livewire": "^2.0",
+        "meilisearch/meilisearch-php": "^0.18.2",
+        "rappasoft/laravel-livewire-tables": "^1.0",
+        "rappasoft/lockout": "^3.0",
+        "spatie/laravel-activitylog": "^3.14",
+        "spatie/laravel-permission": "^3.11",
+        "tabuna/breadcrumbs": "^2.2"
     },
     "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.2",
+        "barryvdh/laravel-ide-helper": "^2.6",
+        "brianium/paratest": "^6.2",
         "facade/ignition": "^2.5",
         "fakerphp/faker": "^1.9.1",
+        "friendsofphp/php-cs-fixer": "^2.16",
+ "laravel/telescope": "^4.5",
         "laravel/sail": "^1.0.1",
-        "laravel/telescope": "^4.5",
         "mockery/mockery": "^1.4.2",
         "nunomaduro/collision": "^5.0",
-        "phpunit/phpunit": "^9.3.3"
+        "phpunit/phpunit": "^9.3.3",
+        "roave/security-advisories": "dev-master"
     },
     "autoload": {
         "psr-4": {
@@ -44,18 +59,6 @@
             "Tests\\": "tests/"
         }
     },
-    "config": {
-        "optimize-autoloader": true,
-        "preferred-install": "dist",
-        "sort-packages": true
-    },
-    "extra": {
-        "laravel": {
-            "dont-discover": []
-        }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "scripts": {
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
@@ -66,6 +69,41 @@
         ],
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
-        ]
-    }
+        ],
+        "post-update-cmd": [
+            "@php artisan ide-helper:generate",
+            "@php artisan ide-helper:meta"
+        ],
+        "clear-all": [
+            "@php artisan clear-compiled",
+            "@php artisan cache:clear",
+            "@php artisan route:clear",
+            "@php artisan view:clear",
+            "@php artisan config:clear",
+            "composer dumpautoload -o"
+        ],
+        "cache-all": [
+            "@php artisan config:cache",
+            "@php artisan route:cache"
+        ],
+        "reset": [
+            "composer clear-all",
+            "composer cache-all"
+        ],
+        "test": "@php artisan test --parallel",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage",
+        "format": "vendor/bin/php-cs-fixer fix --allow-risky=yes"
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": []
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }

@@ -26,8 +26,7 @@ class DeviceSnmpSettingsSeeder extends Seeder
                 'snmp_timeout' => 10,
                 'snmp_read_community' => 'csnmpv2c',
                 'snmp_write_community' => null,
-                'snmp_auth_level' => null,
-                'snmp_auth_name' => null,
+
                 'snmp_authentication_protocol' => null,
                 'snmp_authentication_password' => null,
                 'snmp_privacy_protocol' => null,
@@ -44,8 +43,7 @@ class DeviceSnmpSettingsSeeder extends Seeder
                 'snmp_timeout' => 10,
                 'snmp_read_community' => 'csnmpv2c',
                 'snmp_write_community' => null,
-                'snmp_auth_level' => null,
-                'snmp_auth_name' => null,
+    
                 'snmp_authentication_protocol' => null,
                 'snmp_authentication_password' => null,
                 'snmp_privacy_protocol' => null,
@@ -62,8 +60,7 @@ class DeviceSnmpSettingsSeeder extends Seeder
                 'snmp_timeout' => 10,
                 'snmp_read_community' => 'csnmpv2c',
                 'snmp_write_community' => null,
-                'snmp_auth_level' => null,
-                'snmp_auth_name' => null,
+ 
                 'snmp_authentication_protocol' => null,
                 'snmp_authentication_password' => null,
                 'snmp_privacy_protocol' => null,
