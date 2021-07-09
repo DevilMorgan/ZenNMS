@@ -63,9 +63,10 @@
             <table class="table table-bordered table-hover" id="datatable_admin_list">
                 <thead>
                 <tr>
-                    <th>کد نقش</th>
-                    <th>نام نقش</th>
-                    <th>عملیات</th>
+                    <th>Device</th>
+                    <th>Vendor</th>
+                    <th>IP Address</th>
+					<th>Type</th>
                 </tr>
                 </thead>
                 <tbody>

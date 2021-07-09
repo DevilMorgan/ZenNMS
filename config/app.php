@@ -167,6 +167,7 @@ return [
          */
         App\Providers\MetronicServiceProvider::class,
 		Yoeunes\Toastr\ToastrServiceProvider::class,
+        Collective\Html\HtmlServiceProvider::class,
 
 
         /*
@@ -236,6 +237,8 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+        'Form' => Collective\Html\FormFacade::class,
+        'HTML' => Collective\Html\HtmlFacade::class,
 		        // Metronic Aliases
         'Metronic' => App\Classes\Theme\Metronic::class,
         'Menu' => App\Classes\Theme\Menu::class,

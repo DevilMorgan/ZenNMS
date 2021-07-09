@@ -1,17 +1,20 @@
-{{-- Extends layout --}}
-@extends('zen.app')
-
-@section('page-header')
-  <span class="font-normal text-normal text-gray-700">Devices</span>
-  <span class="text-gray-300 px-2">
-    <x-fontawesome.light.chevron-right class="w-4 h-4 text-gray-400" />
-  </span>
-  <span class="font-normal text-normal text-gray-400">Device list</span>
-@endsection
+@extends('layout.default')
 
 @section('content')
-<div class="grid grid-cols-1 gap-4 px-5">
+    <div class="container">
+        <div class="row">
+            @include('layout.customsidebar')
 
+            <div class="col-md-9">
+                <div class="card">
+                    <div class="card-header">Cihazlar</div>
+                    <div class="card-body">
+                        <a href="{{ url('/nms/device/create') }}" class="btn btn-success btn-sm" title="Add New Post">
+                            <i class="fa fa-plus" aria-hidden="true"></i> Yeni Cihaz Ekle
+                        </a>
+
+
+<div class="grid grid-cols-1 gap-4 px-5">
   <!-- Begin::Column-1 -->
   <div id="column-1">
     <x-ui.atoms.card>
@@ -58,7 +61,14 @@
         </tbody>
       </table>
     </x-ui.atoms.card>
-  </div>
-  <!-- End::Column-1 -->
-</div>
+</tbody>
+                            </table>
+                            <div class="pagination-wrapper"> </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection

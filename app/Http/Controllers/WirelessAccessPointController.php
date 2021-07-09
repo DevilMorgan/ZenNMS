@@ -47,7 +47,7 @@ class WirelessAccessPointController extends Controller
      */
     public function show(WirelessAccessPoint $wap)
     {
-        return view('zen.wap.show', [
+        return view('frontend.wap.show', [
             'device'     => $wap->device()->first(),
             'wap'        => $wap,
             'wap_entity' => $wap->entity()->first(),

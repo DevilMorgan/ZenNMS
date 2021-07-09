@@ -16,7 +16,7 @@ class DeviceController extends Controller
      */
     public function index()
     {
-        return view('zen.device.index', [
+        return view('frontend.devices.index', [
             'devices' => Device::with(['type', 'vendor'])
                 ->orderBy('hostname')
                 ->paginate(12)
@@ -78,7 +78,7 @@ class DeviceController extends Controller
                 ->get();
         }
 
-        return view('zen.device.show', $data);
+        return view('frontend.devices.show', $data);
     }
 
     /**
@@ -95,7 +95,7 @@ class DeviceController extends Controller
         ])
         ->findOrFail($id);
 
-        return view('zen.device.edit', $device);
+        return view('frontend.devices.edit', $device);
     }
 
     /**

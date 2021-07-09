@@ -1,4 +1,6 @@
-@extends('backend.layouts.app')
+@extends('layout.default')
+
+@section('title', 'Wireless Management')
 
 @section('title', __('Dashboard'))
 

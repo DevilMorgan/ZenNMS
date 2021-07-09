@@ -1,6 +1,6 @@
 @inject('model', '\App\Domains\Auth\Models\User')
 
-@extends('backend.layouts.app')
+@extends('layout.default')
 
 @section('title', __('Update User'))
 

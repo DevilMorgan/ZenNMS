@@ -1,5 +1,4 @@
-{{-- Extends layout --}}
-@extends('layout.default')
+@extends('zen.app')
 
 @section('page-header')
   <span class="font-semibold text-normal uppercase text-gray-700">
