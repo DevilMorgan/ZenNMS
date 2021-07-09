@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 132);
+/******/ 	return __webpack_require__(__webpack_require__.s = 133);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -98,14 +98,14 @@ eval("\n\nvar KTCardDraggable = function () {\n  return {\n    //main function t
 
 /***/ }),
 
-/***/ 132:
+/***/ 133:
 /*!***********************************************************************!*\
   !*** multi ./resources/metronic/js/pages/features/cards/draggable.js ***!
   \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\laragon\metronic\resources\metronic\js\pages\features\cards\draggable.js */"./resources/metronic/js/pages/features/cards/draggable.js");
+module.exports = __webpack_require__(/*! C:\wamp64\www\keenthemes\themes\metronic\theme\html_laravel\demo1\skeleton\resources\metronic\js\pages\features\cards\draggable.js */"./resources/metronic/js/pages/features/cards/draggable.js");
 
 
 /***/ })

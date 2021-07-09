@@ -1,6 +1,5 @@
 {{-- Extends layout --}}
-@extends('layout.default')
-
+@extends('zen.app')
 
 @section('page-header')
   <span class="font-normal text-normal text-gray-700">Devices</span>
@@ -12,6 +11,7 @@
 
 @section('content')
 <div class="grid grid-cols-1 gap-4 px-5">
+
   <!-- Begin::Column-1 -->
   <div id="column-1">
     <x-ui.atoms.card>
@@ -31,11 +31,11 @@
             <x-html.table-body-column>
               <div class="flex flex-row space-x-4">
                 <div class="rounded-sm bg-gray-100 p-2">
-                  <img src="{{ asset('/img/vendors/24/'.$device->vendor_id.'.png') }}" alt="{{ $device->vendor->enterprise_name }} logo">
+                  <img src="{{ asset('/img/vendors/24/'.$device->vendor_id.'.png') }}" alt=" logo">
                 </div>
                 <div class="flex flex-col">
                   <div class="font-semibold text-green-500">
-                    <a href="{{ route('device.show', $device->id) }}">{{ $device->hostname }}</a>
+                    <a href="{{ route('admin.dashboard', $device->id) }}">{{ $device->hostname }}</a>
                   </div>
                   <div>
 
@@ -43,7 +43,7 @@
                 </div>
               </div>
             </x-html.table-body-column>
-            <x-html.table-body-column>{{ $device->vendor->enterprise_name }}</x-html.table-body-column>
+            <x-html.table-body-column></x-html.table-body-column>
             <x-html.table-body-column>{{ $device->ip_address }}</x-html.table-body-column>
             <x-html.table-body-column>
               @if(!is_null($device->type_id))

@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 23);
+/******/ 	return __webpack_require__(__webpack_require__.s = 22);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -98,14 +98,14 @@ eval("\n\nvar KTDatatablesAdvancedFooterCalllback = function () {\n  var _init =
 
 /***/ }),
 
-/***/ 23:
+/***/ 22:
 /*!***************************************************************************************!*\
   !*** multi ./resources/metronic/js/pages/crud/datatables/advanced/footer-callback.js ***!
   \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\laragon\metronic\resources\metronic\js\pages\crud\datatables\advanced\footer-callback.js */"./resources/metronic/js/pages/crud/datatables/advanced/footer-callback.js");
+module.exports = __webpack_require__(/*! C:\wamp64\www\keenthemes\themes\metronic\theme\html_laravel\demo1\skeleton\resources\metronic\js\pages\crud\datatables\advanced\footer-callback.js */"./resources/metronic/js/pages/crud/datatables/advanced/footer-callback.js");
 
 
 /***/ })

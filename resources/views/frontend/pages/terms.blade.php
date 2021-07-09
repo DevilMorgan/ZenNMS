@@ -1,4 +1,6 @@
-@extends('frontend.layouts.app')
+
+{{-- Extends layout --}}
+@extends('layout.default')
 
 @section('title', __('Terms & Conditions'))
 

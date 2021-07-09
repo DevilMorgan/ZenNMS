@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 147);
+/******/ 	return __webpack_require__(__webpack_require__.s = 148);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -98,14 +98,14 @@ eval(" // Class definition\n\nvar KTCropperDemo = function () {\n  // Private fu
 
 /***/ }),
 
-/***/ 147:
+/***/ 148:
 /*!*****************************************************************************!*\
   !*** multi ./resources/metronic/js/pages/features/miscellaneous/cropper.js ***!
   \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\laragon\metronic\resources\metronic\js\pages\features\miscellaneous\cropper.js */"./resources/metronic/js/pages/features/miscellaneous/cropper.js");
+module.exports = __webpack_require__(/*! C:\wamp64\www\keenthemes\themes\metronic\theme\html_laravel\demo1\skeleton\resources\metronic\js\pages\features\miscellaneous\cropper.js */"./resources/metronic/js/pages/features/miscellaneous/cropper.js");
 
 
 /***/ })

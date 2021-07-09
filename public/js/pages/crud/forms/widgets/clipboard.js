@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 71);
+/******/ 	return __webpack_require__(__webpack_require__.s = 70);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -98,14 +98,14 @@ eval(" // Class definition\n\nvar KTClipboardDemo = function () {\n  // Private 
 
 /***/ }),
 
-/***/ 71:
+/***/ 70:
 /*!***************************************************************************!*\
   !*** multi ./resources/metronic/js/pages/crud/forms/widgets/clipboard.js ***!
   \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\laragon\metronic\resources\metronic\js\pages\crud\forms\widgets\clipboard.js */"./resources/metronic/js/pages/crud/forms/widgets/clipboard.js");
+module.exports = __webpack_require__(/*! C:\wamp64\www\keenthemes\themes\metronic\theme\html_laravel\demo1\skeleton\resources\metronic\js\pages\crud\forms\widgets\clipboard.js */"./resources/metronic/js/pages/crud/forms/widgets/clipboard.js");
 
 
 /***/ })

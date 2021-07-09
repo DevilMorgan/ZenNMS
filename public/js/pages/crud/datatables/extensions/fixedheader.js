@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 38);
+/******/ 	return __webpack_require__(__webpack_require__.s = 37);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -98,14 +98,14 @@ eval("\n\nvar KTDatatablesExtensionsFixedheader = function () {\n  var initTable
 
 /***/ }),
 
-/***/ 38:
+/***/ 37:
 /*!*************************************************************************************!*\
   !*** multi ./resources/metronic/js/pages/crud/datatables/extensions/fixedheader.js ***!
   \*************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\laragon\metronic\resources\metronic\js\pages\crud\datatables\extensions\fixedheader.js */"./resources/metronic/js/pages/crud/datatables/extensions/fixedheader.js");
+module.exports = __webpack_require__(/*! C:\wamp64\www\keenthemes\themes\metronic\theme\html_laravel\demo1\skeleton\resources\metronic\js\pages\crud\datatables\extensions\fixedheader.js */"./resources/metronic/js/pages/crud/datatables/extensions/fixedheader.js");
 
 
 /***/ })

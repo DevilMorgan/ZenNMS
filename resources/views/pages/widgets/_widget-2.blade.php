@@ -60,152 +60,135 @@
 
     {{-- Body --}}
     <div class="card-body pt-4">
-        <div class="timeline timeline-5 mt-3">
-            {{-- Item --}}
+        <div class="timeline timeline-6 mt-3">
+            <!--begin::Item-->
             <div class="timeline-item align-items-start">
-                {{-- Label --}}
-                <div class="timeline-label font-weight-bolder text-dark-75 font-size-lg text-right pr-3">08:42</div>
-
-                {{-- Badge --}}
+                <!--begin::Label-->
+                <div class="timeline-label font-weight-bolder text-dark-75 font-size-lg">08:42</div>
+                <!--end::Label-->
+                <!--begin::Badge-->
                 <div class="timeline-badge">
-                    <i class="fa fa-genderless text-success icon-xxl"></i>
+                    <i class="fa fa-genderless text-warning icon-xl"></i>
                 </div>
-
-                {{-- Text --}}
-                <div class="timeline-content text-dark-50">
-                    Outlines of the recent activities that happened last weekend
-                </div>
+                <!--end::Badge-->
+                <!--begin::Text-->
+                <div class="font-weight-mormal font-size-lg timeline-content text-muted pl-3">Outlines keep you honest. And keep structure</div>
+                <!--end::Text-->
             </div>
-
-            {{-- Item --}}
+            <!--end::Item-->
+            <!--begin::Item-->
             <div class="timeline-item align-items-start">
-                {{-- Label --}}
-                <div class="timeline-label font-weight-bolder text-dark-75 font-size-lg text-right pr-3">3 hr</div>
-
-                {{-- Badge --}}
+                <!--begin::Label-->
+                <div class="timeline-label font-weight-bolder text-dark-75 font-size-lg">10:00</div>
+                <!--end::Label-->
+                <!--begin::Badge-->
                 <div class="timeline-badge">
-                    <i class="fa fa-genderless text-danger icon-xxl"></i>
+                    <i class="fa fa-genderless text-success icon-xl"></i>
                 </div>
-
-                {{-- Content --}}
+                <!--end::Badge-->
+                <!--begin::Content-->
                 <div class="timeline-content d-flex">
-                    <span class="mr-4 font-weight-bolder text-dark-75">AEOL meeting with</span>
-
-                    {{-- Section --}}
-                    <div class="d-flex align-items-start mt-n2">
-                        {{-- Symbol --}}
-                        <a href="#" class="symbol symbol-35 symbol-light-success mr-2">
-                            <span class="symbol-label">
-                                <img src="{{ asset('media/svg/avatars/004-boy-1.svg') }}" class="h-75 align-self-end"/>
-                            </span>
-                        </a>
-
-                        {{-- Symbol --}}
-                        <a href="#" class="symbol symbol-35 symbol-light-success">
-                            <span class="symbol-label">
-                                <img src="{{ asset('media/svg/avatars/002-girl.svg') }}" class="h-75 align-self-end"/>
-                            </span>
-                        </a>
-                    </div>
+                    <span class="font-weight-bolder text-dark-75 pl-3 font-size-lg">AEOL meeting</span>
                 </div>
+                <!--end::Content-->
             </div>
-
-            {{-- Item --}}
+            <!--end::Item-->
+            <!--begin::Item-->
             <div class="timeline-item align-items-start">
-                {{-- Label --}}
-                <div class="timeline-label font-weight-bolder text-dark-75 font-size-lg text-right pr-3">14:37</div>
-
-                {{-- Badge --}}
+                <!--begin::Label-->
+                <div class="timeline-label font-weight-bolder text-dark-75 font-size-lg">14:37</div>
+                <!--end::Label-->
+                <!--begin::Badge-->
                 <div class="timeline-badge">
-                    <i class="fa fa-genderless text-info icon-xxl"></i>
+                    <i class="fa fa-genderless text-danger icon-xl"></i>
                 </div>
-
-                {{-- Desc --}}
-                <div class="timeline-content font-weight-bolder text-dark-75">
-                    Submit initial budget -
-                    <a href="#" class="text-primary">USD 700</a>.
+                <!--end::Badge-->
+                <!--begin::Desc-->
+                <div class="timeline-content font-weight-bolder font-size-lg text-dark-75 pl-3">Make deposit
+                    <a href="#" class="text-primary">USD 700</a>. to ESL
                 </div>
+                <!--end::Desc-->
             </div>
-
-            {{-- Item --}}
+            <!--end::Item-->
+            <!--begin::Item-->
             <div class="timeline-item align-items-start">
-                {{-- Label --}}
-                <div class="timeline-label font-weight-bolder text-dark-75 font-size-lg text-right pr-3">16:50</div>
-
-                {{-- Badge --}}
+                <!--begin::Label-->
+                <div class="timeline-label font-weight-bolder text-dark-75 font-size-lg">16:50</div>
+                <!--end::Label-->
+                <!--begin::Badge-->
                 <div class="timeline-badge">
-                    <i class="fa fa-genderless text-danger icon-xxl"></i>
+                    <i class="fa fa-genderless text-primary icon-xl"></i>
                 </div>
-
-                {{-- Text --}}
-                <div class="timeline-content text-dark-50">
-                    Stakeholder meeting scheduling.
-                </div>
+                <!--end::Badge-->
+                <!--begin::Text-->
+                <div class="timeline-content font-weight-mormal font-size-lg text-muted pl-3">Indulging in poorly driving and keep structure keep great</div>
+                <!--end::Text-->
             </div>
-
-            {{-- Item --}}
+            <!--end::Item-->
+            <!--begin::Item-->
             <div class="timeline-item align-items-start">
-                {{-- Label --}}
-                <div class="timeline-label font-weight-bolder text-dark-75 font-size-lg text-right pr-3">17:30</div>
-
-                {{-- Badge --}}
+                <!--begin::Label-->
+                <div class="timeline-label font-weight-bolder text-dark-75 font-size-lg">21:03</div>
+                <!--end::Label-->
+                <!--begin::Badge-->
                 <div class="timeline-badge">
-                    <i class="fa fa-genderless text-success icon-xxl"></i>
+                    <i class="fa fa-genderless text-danger icon-xl"></i>
                 </div>
-
-                {{-- Text --}}
-                <div class="timeline-content text-dark-50">
-                    Project scoping & estimations with stakeholders.
+                <!--end::Badge-->
+                <!--begin::Desc-->
+                <div class="timeline-content font-weight-bolder text-dark-75 pl-3 font-size-lg">New order placed
+                    <a href="#" class="text-primary">#XF-2356</a>.
                 </div>
+                <!--end::Desc-->
             </div>
-
-            {{-- Item --}}
+            <!--end::Item-->
+            <!--begin::Item-->
             <div class="timeline-item align-items-start">
-                {{-- Label --}}
-                <div class="timeline-label font-weight-bolder text-dark-75 font-size-lg text-right pr-3">21:03</div>
-
-                {{-- Badge --}}
+                <!--begin::Label-->
+                <div class="timeline-label font-weight-bolder text-dark-75 font-size-lg">23:07</div>
+                <!--end::Label-->
+                <!--begin::Badge-->
                 <div class="timeline-badge">
-                    <i class="fa fa-genderless text-warning icon-xxl"></i>
+                    <i class="fa fa-genderless text-info icon-xl"></i>
                 </div>
-
-                {{-- Desc --}}
-                <div class="timeline-content font-weight-bolder text-dark-75">
-                    New order placed <a href="#" class="text-primary">#XF-2356</a>.
-                </div>
+                <!--end::Badge-->
+                <!--begin::Text-->
+                <div class="timeline-content font-weight-mormal font-size-lg text-muted pl-3">Outlines keep and you honest. Indulging in poorly driving</div>
+                <!--end::Text-->
             </div>
-
-            <!--begin: Item-->
+            <!--end::Item-->
+            <!--begin::Item-->
             <div class="timeline-item align-items-start">
-                {{-- Label --}}
-                <div class="timeline-label font-weight-bolder text-dark-75 font-size-lg text-right pr-3">21:07</div>
-
-                {{-- Badge --}}
+                <!--begin::Label-->
+                <div class="timeline-label font-weight-bolder text-dark-75 font-size-lg">16:50</div>
+                <!--end::Label-->
+                <!--begin::Badge-->
                 <div class="timeline-badge">
-                    <i class="fa fa-genderless text-danger icon-xxl"></i>
+                    <i class="fa fa-genderless text-primary icon-xl"></i>
                 </div>
-
-                {{-- Text --}}
-                <div class="timeline-content text-dark-50">
-                    Company BBQ to celebrate the last quater achievements and goals.
-                </div>
+                <!--end::Badge-->
+                <!--begin::Text-->
+                <div class="timeline-content font-weight-mormal font-size-lg text-muted pl-3">Indulging in poorly driving and keep structure keep great</div>
+                <!--end::Text-->
             </div>
-
-            {{-- Item --}}
+            <!--end::Item-->
+            <!--begin::Item-->
             <div class="timeline-item align-items-start">
-                {{-- Label --}}
-                <div class="timeline-label font-weight-bolder text-dark-75 font-size-lg text-right pr-3">20:30</div>
-
-                {{-- Badge --}}
+                <!--begin::Label-->
+                <div class="timeline-label font-weight-bolder text-dark-75 font-size-lg">21:03</div>
+                <!--end::Label-->
+                <!--begin::Badge-->
                 <div class="timeline-badge">
-                    <i class="fa fa-genderless text-info icon-xxl"></i>
+                    <i class="fa fa-genderless text-danger icon-xl"></i>
                 </div>
-
-                {{-- Text --}}
-                <div class="timeline-content text-dark-50">
-                    Marketing campaign planning with customer.
+                <!--end::Badge-->
+                <!--begin::Desc-->
+                <div class="timeline-content font-weight-bolder font-size-lg text-dark-75 pl-3">New order placed
+                    <a href="#" class="text-primary">#XF-2356</a>.
                 </div>
+                <!--end::Desc-->
             </div>
+            <!--end::Item-->
         </div>
     </div>
 </div>

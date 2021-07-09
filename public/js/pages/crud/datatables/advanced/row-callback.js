@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 25);
+/******/ 	return __webpack_require__(__webpack_require__.s = 24);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -98,14 +98,14 @@ eval("\n\nvar KTDatatablesAdvancedColumnVisibility = function () {\n  var _init 
 
 /***/ }),
 
-/***/ 25:
+/***/ 24:
 /*!************************************************************************************!*\
   !*** multi ./resources/metronic/js/pages/crud/datatables/advanced/row-callback.js ***!
   \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\laragon\metronic\resources\metronic\js\pages\crud\datatables\advanced\row-callback.js */"./resources/metronic/js/pages/crud/datatables/advanced/row-callback.js");
+module.exports = __webpack_require__(/*! C:\wamp64\www\keenthemes\themes\metronic\theme\html_laravel\demo1\skeleton\resources\metronic\js\pages\crud\datatables\advanced\row-callback.js */"./resources/metronic/js/pages/crud/datatables/advanced/row-callback.js");
 
 
 /***/ })

@@ -124,6 +124,10 @@ class Init
         // Enable Aside
         Metronic::addClass('body', 'aside-enabled');
 
+        if (config('layout.aside.self.minimize.hoverable')){
+            Metronic::addClass('body', 'aside-minimize-hoverable');
+        }
+
         // Fixed Aside
         if (config('layout.aside.self.fixed')) {
             Metronic::addClass('body', 'aside-fixed');

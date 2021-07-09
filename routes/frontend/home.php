@@ -20,6 +20,8 @@ use App\Http\Controllers\ToolsController;
 use App\Http\Controllers\WirelessAccessPointController;
 use Illuminate\Support\Facades\Route;
 
+
+
 /*
  * Frontend Controllers
  * All route names are prefixed with 'frontend.'.
@@ -37,9 +39,12 @@ Route::get('terms', [TermsController::class, 'index'])
             ->push(__('Terms & Conditions'), route('frontend.pages.terms'));
     });
 
-	
-	
-	
+
+
+
+
+
+
 Route::prefix('nms')->group(function () {
 
     /**
@@ -60,6 +65,7 @@ Route::prefix('nms')->group(function () {
 
     Route::get('device/{device}', [DeviceController::class, 'show'])
         ->name('device.show');
+
 
     Route::put('device/{device}', [DeviceController::class, 'update'])
         ->name('device.update');
@@ -103,11 +109,7 @@ Route::resource('group', GroupController::class);
 Route::resource('rack', RackController::class);
 Route::resource('site', SiteController::class);
 
-/**
- * Routes for Dashboard
- */
-Route::get('dashboard', DashboardController::class)
-    ->name('dashboard');
+
 
 /**
  * Routes for Profile

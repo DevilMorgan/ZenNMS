@@ -12,8 +12,8 @@ class DashboardController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Contracts\View\View
      */
-    public function __invoke(Request $request)
+    public function index()
     {
-        //;
+        return view('pages.dashboad');
     }
 }

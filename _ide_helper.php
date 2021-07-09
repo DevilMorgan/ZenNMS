@@ -16871,6 +16871,170 @@
      
 }
 
+    namespace Yoeunes\Toastr\Facades { 
+            /**
+     * 
+     *
+     */ 
+        class Toastr {
+                    /**
+         * Shortcut for adding an error notification.
+         *
+         * @param string $message The notification's message
+         * @param string $title The notification's title
+         * @param array $options
+         * @return \Toastr 
+         * @static 
+         */ 
+        public static function error($message, $title = '', $options = [])
+        {
+                        /** @var \Yoeunes\Toastr\Toastr $instance */
+                        return $instance->error($message, $title, $options);
+        }
+                    /**
+         * Shortcut for adding an info notification.
+         *
+         * @param string $message The notification's message
+         * @param string $title The notification's title
+         * @param array $options
+         * @return \Toastr 
+         * @static 
+         */ 
+        public static function info($message, $title = '', $options = [])
+        {
+                        /** @var \Yoeunes\Toastr\Toastr $instance */
+                        return $instance->info($message, $title, $options);
+        }
+                    /**
+         * Shortcut for adding a success notification.
+         *
+         * @param string $message The notification's message
+         * @param string $title The notification's title
+         * @param array $options
+         * @return \Toastr 
+         * @static 
+         */ 
+        public static function success($message, $title = '', $options = [])
+        {
+                        /** @var \Yoeunes\Toastr\Toastr $instance */
+                        return $instance->success($message, $title, $options);
+        }
+                    /**
+         * Shortcut for adding a warning notification.
+         *
+         * @param string $message The notification's message
+         * @param string $title The notification's title
+         * @param array $options
+         * @return \Toastr 
+         * @static 
+         */ 
+        public static function warning($message, $title = '', $options = [])
+        {
+                        /** @var \Yoeunes\Toastr\Toastr $instance */
+                        return $instance->warning($message, $title, $options);
+        }
+                    /**
+         * Add a notification.
+         *
+         * @param string $type Could be error, info, success, or warning.
+         * @param string $message The notification's message
+         * @param string $title The notification's title
+         * @param array $options
+         * @return \Toastr 
+         * @static 
+         */ 
+        public static function addNotification($type, $message, $title = '', $options = [])
+        {
+                        /** @var \Yoeunes\Toastr\Toastr $instance */
+                        return $instance->addNotification($type, $message, $title, $options);
+        }
+                    /**
+         * Render the notifications' script tag.
+         *
+         * @return string 
+         * @static 
+         */ 
+        public static function render()
+        {
+                        /** @var \Yoeunes\Toastr\Toastr $instance */
+                        return $instance->render();
+        }
+                    /**
+         * Get global toastr options.
+         *
+         * @return string 
+         * @static 
+         */ 
+        public static function options()
+        {
+                        /** @var \Yoeunes\Toastr\Toastr $instance */
+                        return $instance->options();
+        }
+                    /**
+         * 
+         *
+         * @return string 
+         * @static 
+         */ 
+        public static function notificationsAsString()
+        {
+                        /** @var \Yoeunes\Toastr\Toastr $instance */
+                        return $instance->notificationsAsString();
+        }
+                    /**
+         * map over all notifications and create an array of toastrs.
+         *
+         * @return array 
+         * @static 
+         */ 
+        public static function notifications()
+        {
+                        /** @var \Yoeunes\Toastr\Toastr $instance */
+                        return $instance->notifications();
+        }
+                    /**
+         * Create a single toastr.
+         *
+         * @param string $type
+         * @param string $message
+         * @param string|null $title
+         * @param string|null $options
+         * @return string 
+         * @static 
+         */ 
+        public static function toastr($type, $message = '', $title = '', $options = '')
+        {
+                        /** @var \Yoeunes\Toastr\Toastr $instance */
+                        return $instance->toastr($type, $message, $title, $options);
+        }
+                    /**
+         * Clear all notifications.
+         *
+         * @return \Toastr 
+         * @static 
+         */ 
+        public static function clear()
+        {
+                        /** @var \Yoeunes\Toastr\Toastr $instance */
+                        return $instance->clear();
+        }
+                    /**
+         * Limit the number of displayed toasts.
+         *
+         * @param int $max
+         * @return \Yoeunes\Toastr\Toastr 
+         * @static 
+         */ 
+        public static function maxItems($max)
+        {
+                        /** @var \Yoeunes\Toastr\Toastr $instance */
+                        return $instance->maxItems($max);
+        }
+         
+    }
+     
+}
+
     namespace JamesMills\LaravelTimezone\Facades { 
             /**
      * 
@@ -20480,6 +20644,7 @@ namespace  {
             class Livewire extends \Livewire\Livewire {}
             class Breadcrumbs extends \Tabuna\Breadcrumbs\Breadcrumbs {}
             class GeoIP extends \Torann\GeoIP\Facades\GeoIP {}
+            class Toastr extends \Yoeunes\Toastr\Facades\Toastr {}
             class Timezone extends \JamesMills\LaravelTimezone\Facades\Timezone {}
      
 }

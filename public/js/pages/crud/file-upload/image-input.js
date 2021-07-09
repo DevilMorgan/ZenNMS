@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 48);
+/******/ 	return __webpack_require__(__webpack_require__.s = 47);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -98,14 +98,14 @@ eval(" // Class definition\n\nvar KTImageInputDemo = function () {\n  // Private
 
 /***/ }),
 
-/***/ 48:
+/***/ 47:
 /*!***************************************************************************!*\
   !*** multi ./resources/metronic/js/pages/crud/file-upload/image-input.js ***!
   \***************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\laragon\metronic\resources\metronic\js\pages\crud\file-upload\image-input.js */"./resources/metronic/js/pages/crud/file-upload/image-input.js");
+module.exports = __webpack_require__(/*! C:\wamp64\www\keenthemes\themes\metronic\theme\html_laravel\demo1\skeleton\resources\metronic\js\pages\crud\file-upload\image-input.js */"./resources/metronic/js/pages/crud/file-upload/image-input.js");
 
 
 /***/ })

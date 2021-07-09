@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 153);
+/******/ 	return __webpack_require__(__webpack_require__.s = 154);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -98,14 +98,14 @@ eval(" // Class definition\n// Based on:  https://github.com/rgalus/sticky-js\n\
 
 /***/ }),
 
-/***/ 153:
+/***/ 154:
 /*!***********************************************************************************!*\
   !*** multi ./resources/metronic/js/pages/features/miscellaneous/sticky-panels.js ***!
   \***********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\laragon\metronic\resources\metronic\js\pages\features\miscellaneous\sticky-panels.js */"./resources/metronic/js/pages/features/miscellaneous/sticky-panels.js");
+module.exports = __webpack_require__(/*! C:\wamp64\www\keenthemes\themes\metronic\theme\html_laravel\demo1\skeleton\resources\metronic\js\pages\features\miscellaneous\sticky-panels.js */"./resources/metronic/js/pages/features/miscellaneous/sticky-panels.js");
 
 
 /***/ })

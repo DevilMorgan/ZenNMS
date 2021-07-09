@@ -49,7 +49,7 @@ class Menu
                 }
             }
 
-            if (@$item['redirect'] === true) {
+            if (isset($item['redirect']) && $item['redirect'] === true) {
                 $item_attr .= ' data-menu-redirect="1"';
             }
 
@@ -76,11 +76,7 @@ class Menu
                 $url = '#';
 
                 if (isset($item['page'])) {
-                    if (is_array($item['page'])){
-                        $url = url($item['page'][0]);
-                    }else{
-                        $url = url($item['page']);
-                    }
+                    $url = url($item['page']);
                 }
 
                 $target = '';
@@ -92,7 +88,7 @@ class Menu
             }
 
             // Menu arrow
-            if (@$item['here'] === true) {
+            if (isset($item['here']) && $item['here'] === true) {
                 echo '<span class="menu-item-here"></span>';
             }
 
@@ -139,7 +135,7 @@ class Menu
                 } elseif (isset($item['root']) == false && config('layout.menu.aside.submenu.arrow') == 'plus-minus-circle') {
                     echo '<i class="menu-arrow menu-arrow-pm-circle"><span><span></span></span></i>';
                 } else {
-                    if (@$item['arrow'] !== false && config('layout.aside.menu.root-arrow') !== false) {
+                    if (isset($item['arrow']) && $item['arrow'] !== false && config('layout.aside.menu.root-arrow') !== false) {
                         echo '<i class="menu-arrow"></i>';
                     }
                 }
@@ -437,22 +433,14 @@ class Menu
     // Check for active Vertical Menu item
     public static function isActiveVerMenuItem($item, $page, $rec = 0)
     {
-        if (@$item['redirect'] === true) {
+        if (isset($item['redirect']) && $item['redirect'] == $page) {
             return false;
         }
 
         self::checkRecursion($rec);
 
-        if (isset($item['page'])) {
-
-            if (is_array($item['page']))
-            {
-                return in_array(self::cleanup_numbers($page), array_map(function ($item){
-                    return self::cleanup_numbers($item);
-                    }, $item['page']));
-            }
-            elseif ($item['page'] == $page)
-                return true;
+        if (isset($item['page']) && $item['page'] == $page) {
+            return true;
         }
 
         if (is_array($item)) {
@@ -466,17 +454,10 @@ class Menu
         return false;
     }
 
-    //clean string from numbers for menu which has array of page for active
-    public static function cleanup_numbers(string $string)
-    {
-        $numbers = array("1", "2", "3", "4", "5", "6", "7", "8", "9", "0", " ");
-        return str_replace($numbers, '', $string);
-    }
-
     // Check for active Horizontal Menu item
     public static function isActiveHorMenuItem($item, $page, $rec = 0)
     {
-        if (@$item['redirect'] === true) {
+        if (isset($item['redirect']) && $item['redirect'] == $page) {
             return false;
         }
 

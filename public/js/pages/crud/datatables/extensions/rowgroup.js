@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 41);
+/******/ 	return __webpack_require__(__webpack_require__.s = 40);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -98,14 +98,14 @@ eval("\n\nvar KTDatatablesExtensionsRowgroup = function () {\n  var initTable1 =
 
 /***/ }),
 
-/***/ 41:
+/***/ 40:
 /*!**********************************************************************************!*\
   !*** multi ./resources/metronic/js/pages/crud/datatables/extensions/rowgroup.js ***!
   \**********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\laragon\metronic\resources\metronic\js\pages\crud\datatables\extensions\rowgroup.js */"./resources/metronic/js/pages/crud/datatables/extensions/rowgroup.js");
+module.exports = __webpack_require__(/*! C:\wamp64\www\keenthemes\themes\metronic\theme\html_laravel\demo1\skeleton\resources\metronic\js\pages\crud\datatables\extensions\rowgroup.js */"./resources/metronic/js/pages/crud/datatables/extensions/rowgroup.js");
 
 
 /***/ })

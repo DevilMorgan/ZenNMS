@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 108);
+/******/ 	return __webpack_require__(__webpack_require__.s = 109);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -98,14 +98,14 @@ eval(" // Class definition\n\nvar KTAppsEducationStudentProfile = function () {\
 
 /***/ }),
 
-/***/ 108:
+/***/ 109:
 /*!*******************************************************************************!*\
   !*** multi ./resources/metronic/js/pages/custom/education/student/profile.js ***!
   \*******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\laragon\metronic\resources\metronic\js\pages\custom\education\student\profile.js */"./resources/metronic/js/pages/custom/education/student/profile.js");
+module.exports = __webpack_require__(/*! C:\wamp64\www\keenthemes\themes\metronic\theme\html_laravel\demo1\skeleton\resources\metronic\js\pages\custom\education\student\profile.js */"./resources/metronic/js/pages/custom/education/student/profile.js");
 
 
 /***/ })
