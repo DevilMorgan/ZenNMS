@@ -54,14 +54,6 @@ class DeviceNeighbours extends Model
 
     private function getLldpSubType($value)
     {
-        return match ($value) {
-            1 => 'chassisComponent',
-            2 => 'interfaceAlias',
-            3 => 'portComponent',
-            4 => 'macAddress',
-            5 => 'networkAddress',
-            6 => 'interfaceName',
-            7 => 'local',
-        };
+
     }
 }

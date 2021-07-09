@@ -2,7 +2,7 @@
   <div class="font-semibold text-gray-500 tracking-wider mb-5">
     FILTER
   </div>
-  <form action="{{ route('device.index') }}" method="post">
+  <form action="" method="post">
     @csrf
     <div class="mb-4 text-sm">
       <label class="block mb-1 font-normal text-gray-500 tracking-wider" for="hostname">Hostname</label>

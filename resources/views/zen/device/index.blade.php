@@ -1,4 +1,6 @@
-@extends('zen.app')
+{{-- Extends layout --}}
+@extends('layout.default')
+
 
 @section('page-header')
   <span class="font-normal text-normal text-gray-700">Devices</span>

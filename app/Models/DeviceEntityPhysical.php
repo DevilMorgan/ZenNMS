@@ -38,22 +38,7 @@ class DeviceEntityPhysical extends Model
             return '';
         }
 
-        return match ($this->class) {
-            1  => 'Other',
-            2  => 'Unknown',
-            3  => 'Chassis',
-            4  => 'Backplane',
-            5  => 'Container',
-            6  => 'Power Supply',
-            7  => 'Fan',
-            8  => 'Sensor',
-            9  => 'Module',
-            10 => 'Port',
-            11 => 'Stack',
-            12 => 'CPU',
-            13 => 'Energy Object',
-            14 => 'Battery',
-        };
+
     }
 
     /**
